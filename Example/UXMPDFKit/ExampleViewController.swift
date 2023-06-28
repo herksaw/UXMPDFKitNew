@@ -23,6 +23,8 @@ class ExampleViewController: UIViewController {
             UXMTextAnnotation.self,
             UXMSignAnnotation.self,
         ]
+
+        pdf.scrollDirection = .vertical
         
         self.navigationController?.pushViewController(pdf, animated: true)
     }
